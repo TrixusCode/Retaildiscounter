@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-RetaildisounterApplication<retaildisounter>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.retail.discounter.retaildisounter.RetaildisounterApplication",
+            "projectName": "retaildisounter",
+            "args": ""
+        }
+    ]
+}
