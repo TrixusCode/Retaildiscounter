@@ -107,9 +107,14 @@ public class RestServiceIntegrationTest extends DiscountBase {
     }
 
     @Test
-    public void Should_Throw_Exception_When_PaymentInfo_Is_Null() {
-        billingInfo = null;
+    public void Should_Throw_Exception_When_PaymentInfo_Is_Null() throws Exception {
+
+        Assertions.assertThrows(IllegalPaymentInfoException.class, () -> 
+        {
+            billingInfo = null;
         restService.calculateDiscount(billingInfo);
+        });
+        
     }
 
     @Test

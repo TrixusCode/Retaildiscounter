@@ -1,6 +1,7 @@
 package com.retail;
 
 import org.junit.jupiter.api.BeforeEach;
+
 import static org.junit.jupiter.api.Assertions.*;
 import com.retail.discounter.retaildisounter.model.*;
 
